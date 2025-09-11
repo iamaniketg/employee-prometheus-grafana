@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: employee-app
-          image: employee:0.4
+          image: employee:0.5
           ports:
             - containerPort: 8085
           imagePullPolicy: IfNotPresent
